@@ -8,10 +8,8 @@ on:
     paths:
       - '.github/workflows/x86.yml'
 
-  #   branches: 
-  #     - master
-  #watch:
-  #  types: [started]
+  watch:
+    types: [started]
 env:
   SSH_ACTIONS: true
 
